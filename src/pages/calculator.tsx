@@ -51,6 +51,7 @@ const IndexPage: NextPage = (): ReactElement => {
     setOperator(oprator);
     setTerm1(Number(display));
     setTerm2(Number(display));
+    setDisplay(calc());
   };
 
   //計算
